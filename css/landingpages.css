@@ -1,0 +1,177 @@
+/*
+Theme Name: Hugo Bootstrap
+Theme URI: http://lukinteractive.pl
+Author: Lukasz Fedor
+Author URI: http://lukinteractive.pl
+Description: Bootstrap 4 Hugo Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Bootstrao Hugo
+Tags:
+
+This theme, like Hugo, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+/*--------------------------------------------------------------
+# Modular Scale Font
+-------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Custom Variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Default Bootstrap Colors
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# BODY
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#SOCIAL COLOR
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Light Colors
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Dark Colors
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# THEME COLOR
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#HEADING
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# GRID
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Jumbatron
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Border Radious
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# SHADOWS
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# LINKS
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Button XL
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# NAVBAR
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# CARDS
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Bootstrap variables and functions 
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Theme Mixin
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Pages
+--------------------------------------------------------------*/
+.lead-2-template-main .divider-paralax-button {
+  position: relative;
+  margin-top: 3rem; }
+  .lead-2-template-main .divider-paralax-button .arrow {
+    position: absolute;
+    top: -30px;
+    left: 300px; }
+    @media (max-width: 1199.98px) {
+      .lead-2-template-main .divider-paralax-button .arrow {
+        display: none; } }
+  .lead-2-template-main .divider-paralax-button .arrow-mobile {
+    display: none; }
+    @media (max-width: 1199.98px) {
+      .lead-2-template-main .divider-paralax-button .arrow-mobile {
+        display: block;
+        margin-bottom: 2rem;
+        opacity: 0.7; } }
+
+.lead-6-template-main .service .card {
+  overflow: hidden; }
+
+.lead-6-template-main .service .card:hover .card-img {
+  transform: scale(1.1);
+  transition: all .3s; }
+
+@media (max-width: 767.98px) {
+  .lead-13-template-main .testimonial .card {
+    margin-top: 2rem; } }
+
+@media (min-width: 768px) {
+  .lead-13-template-main .testimonial .row {
+    margin-top: -4.375rem; } }
+
+@media (min-width: 768px) {
+  .lead-17-template-main .card-form {
+    position: absolute;
+    top: 60px; } }
+
+.lead-17-template-main .logos-wrapper img {
+  padding: .9375rem .6375rem .3125rem 0; }
+
+@media (min-width: 768px) {
+  .lead-17-template-main .logos-wrapper {
+    padding: 1rem 0;
+    width: 100%; } }
+
+.lead-17-template-main .logos-title {
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+  font-weight: bolder;
+  font-size: .875rem;
+  text-transform: uppercase;
+  width: 100%;
+  display: block; }
+
+.lead-18-template-main .arrow {
+  display: none; }
+
+@media (min-width: 992px) {
+  .lead-18-template-main .card-form-center {
+    position: absolute; } }
+
+.lead-18-template-main .card-form-center .arrow {
+  position: absolute;
+  left: -120px;
+  display: block;
+  top: -35px; }
+
+.lead-18-template-main .logos-wrapper img {
+  padding: .9375rem .6375rem .3125rem 0; }
+
+@media (min-width: 768px) {
+  .lead-18-template-main .logos-wrapper {
+    padding: 1rem 0;
+    width: 100%; } }
+
+.lead-19-template-main .logos-wrapper img {
+  padding: .9375rem .6375rem .3125rem 0; }
+
+@media (min-width: 768px) {
+  .lead-19-template-main .logos-wrapper {
+    padding: 1rem 0;
+    width: 100%; } }
+
+.lead-19-template-main .logos-title {
+  border-bottom: 1px solid #e9ecef;
+  padding: 1rem 0;
+  font-weight: bolder;
+  font-size: 1rem;
+  text-transform: uppercase;
+  width: 100%;
+  display: block; }
+
+.lead-21-template-main .card-form-ico {
+  position: absolute;
+  top: -20px; }
